@@ -14,6 +14,6 @@ describe ('user can create a contact', () => {
             cy.get ('#contact-list').should('contain', 'Felix')
         })
         it ('displays the phone number of the new contact', () =>{
-            cy.get ('#contact-list').should('contain', '0708 574340')
+            cy.get ('#contact-list').should('contain', '0708574340')
         })
 })
